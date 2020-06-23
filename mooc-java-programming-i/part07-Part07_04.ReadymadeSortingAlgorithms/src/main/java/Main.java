@@ -57,19 +57,23 @@ public class Main {
         System.out.println("");
 
     }
-
+    
+    // static method to sort array of integers
     public static void sort(int[] array) {
         Arrays.sort(array);
     }
 
+    // static method to sort array of strings
     public static void sort(String[] array) {
         Arrays.sort(array);
     }
     
+    // static method to sort ArrayList of numbers
     public static void sortIntegers(ArrayList<Integer> numbers){
         Collections.sort(numbers);
     }
     
+    // static method to sort ArrayList of strings
     public static void sortStrings(ArrayList<String> strings){
         Collections.sort(strings);
     }
