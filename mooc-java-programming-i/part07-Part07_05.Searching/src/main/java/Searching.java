@@ -56,16 +56,21 @@ public class Searching {
         return -1;
     }
 
+    // Part 2 of 2 of exercise: Linear Search
     public static int binarySearch(ArrayList<Book> books, long searchedId) {
     
+        // initialize variables
         int start = 0;
         int end = books.size() - 1;
         int middle = 0;
         
-
+        // perform binary search in this while loop
         while (start <= end) {
+            // initialize middle at midpoint of list
             middle = (start + end) / 2;
-
+            
+            // determine next search interval,
+            // halving search space each iteration
             Book book = books.get(middle);
             int bookId = book.getId();
             if (bookId == searchedId) {
