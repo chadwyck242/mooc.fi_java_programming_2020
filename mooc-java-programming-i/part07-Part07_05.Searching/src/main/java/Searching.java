@@ -56,7 +56,7 @@ public class Searching {
         return -1;
     }
 
-    // Part 2 of 2 of exercise: Linear Search
+    // Part 2 of 2 of exercise: Binary Search
     public static int binarySearch(ArrayList<Book> books, long searchedId) {
     
         // initialize variables
