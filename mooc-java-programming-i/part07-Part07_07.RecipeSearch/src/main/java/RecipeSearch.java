@@ -9,6 +9,11 @@ public class RecipeSearch {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         
+        System.out.println("File to read:");
+        
+        String file = scanner.nextLine();
+        
+        
 
     }
 
